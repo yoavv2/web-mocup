@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+.container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+.section-1 {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+.section-2 {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+.section-3 {
+  display: flex;
+  flex: 1;
+  background-color: #f4f4f4;
+  width: 100%;
+  flex-direction: column;
+}
+.img-header {
+  display: flex;
+  background-image: url(./images/Header.jpg);
+  /* background-repeat: no-repeat; */
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  flex: 1;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.logo-white {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 386px;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 430px;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.header {
+  display: relative;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.64em;
+  text-shadow: 0px 0px 4px #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #ffffff;
+  margin-top: 300px;
+}
+h2 {
+  margin: 29px 0 0 0;
+  font-size: 13px;
+  letter-spacing: 0.37em;
+}
+span {
+  display: flex;
+  background-color: #fde500;
+  width: 172px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  margin: 29px 0 0 0;
+}
+.learn-more-link {
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.37em;
+}
+.section2-context {
+  display: flex;
+  width: 50%;
+  height: 600px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.mountain-logo {
+  flex: 1;
+  width: 153.02px;
+  height: 78px;
+  margin: 0 166px;
+}
+.section-2-context,
+.section-3-context {
+  flex: 1;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 206%;
+  color: #0b0b0b;
+  margin: 0 83px;
+}
+.section3-wrap1 {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.servises {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.experience-level {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.axe-logo {
+  margin-top: 84px;
+}
+.section-3-heder {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.78em;
+  text-transform: uppercase;
+}
+.section-3-context {
+  flex: 0.09;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.card,
+.card2 {
+  display: flex;
+  flex: 1;
+  max-width: 274px;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  margin: 25px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.card {
+  height: 353px;
+  margin-top: 70px;
+}
+.card2 {
+  height: 166px;
+}
+h3 {
+  flex: 1;
+  font-size: 16px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #0b0b0b;
+  margin-top: 25px;
+}
+.card-context {
+  font-size: 13px;
+  width: 85%;
+  height: 600px;
+  margin-top: 35px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex: 2;
+}
+.service-icon {
+  flex: 1;
+  margin-top: 40px;
+  /* width: 30%; */
+}
+
+.rect {
+  height: 5px;
+  width: 80%;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+.iner-rect {
+  height: 5px;
+  align-items: flex-start;
+  background-color: #fde500;
+  border-radius: 8px;
+  margin-left: 0;
+}
+.level {
+  margin-top: 7px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+}
+.skill1,
+.skill2,
+.skill3,
+.skill6 {
+  width: 80%;
+}
+.section-4 {
+  display: flex;
+  flex: 1;
+  background-color: #0b0b0b;
+  width: 100%;
+}
+.section4-links {
+  display: flex;
+  height: 240px;
+  width: 80%;
+  align-items: center;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  flex: 1;
+  max-width: 274px;
+  height: 71px;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 25px;
+}
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
