@@ -8,7 +8,7 @@
 }
 .container {
   display: flex;
-  width: 100%;
+  width: 1080px;
   flex-direction: column;
 }
 .section-1 {
@@ -185,7 +185,6 @@ h3 {
 .service-icon {
   flex: 1;
   margin-top: 40px;
-  /* width: 30%; */
 }
 
 .rect {
@@ -249,12 +248,12 @@ h3 {
   margin-top: 8px;
   text-decoration: none;
   text-transform: uppercase;
+  color: #000;
 }
 
 .section-5 {
   display: flex;
   flex: 1;
-  /* background-color: #fde500; */
   width: 100%;
   height: 550px;
   flex-direction: column;
@@ -263,24 +262,16 @@ h3 {
   display: flex;
   flex: 1;
   width: 100%;
-  /* background-color: aqua; */
   flex-direction: column;
 }
-.section-5-main {
-  display: flex;
+.section5-axe {
   flex: 1;
-  width: 80%;
-  /* background-color: blue; */
-  height: 400px;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  margin-top: 80px;
 }
 .section-5-header {
   flex: 1;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 140%;
   letter-spacing: 0.78em;
   text-transform: uppercase;
@@ -297,69 +288,115 @@ h3 {
   margin-top: 25px;
   width: 35%;
 }
-.section5-axe {
+.section-5-nav {
   flex: 1;
-  margin-top: 80px;
+  display: block;
+  width: 100%;
+  /* background-color:#fde500; */
+  height: 250px;
 }
-.main5 {
+.nav-5 {
   display: flex;
-  flex: 1;
-  width: 500px;
-  height: 65px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin-top: 50px;
-  margin-bottom: 80px;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.logo-black {
-  flex: 1;
-  height: 80px;
+  list-style: none;
+  margin-top: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 63px;
+  /* background-color: #fde500; */
+  width: 100%;
 }
 .link5 {
-  text-align: center;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-.section-6 {
-  flex: 1;
   display: flex;
-  width: 100%;
-  flex-direction: row;
+  align-self: flex-start;
+  justify-content: start;
+}
+.l1 {
+  margin-left: 15px;
+}
+.l2 {
+  margin-left: 15px;
+}
+.l3 {
+  margin-right: 25px;
+}
+.l4 {
+  margin-right: 25px;
+}
+.link5 a {
+  text-decoration: none;
+  color: #000;
+}
+.logo-black {
+  background-color: white;
+  position: relative;
+  width: 175px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  bottom: 80px;
 }
 
-.section-6-img {
+.section-6 {
   display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #fde500;
+}
+
+.section-6-images {
   flex: 1;
+  display: flex;
   height: 350px;
-  /* max-width: 320px; */
-  /* border: 1px solid #000; */
+  z-index: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 320px;
 }
-.img-bg {
-  flex: 1;
-  background-image: url(./images/Branding04.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.img6 {
+  /* flex: 1; */
 }
-.yellow-bg {
+
+.card-yellow-bg {
   position: relative;
   width: 240px;
   height: 258px;
   background-color: #fde500;
-  opacity: 0.9;
-  margin-top: 55px;
-  /* object-fit: cover; */
+  bottom: 300px;
+  right: 160px;
+  z-index: 1;
 }
-.section-6-card {
+.card-white-bg {
   position: relative;
   width: 300px;
   height: 190px;
-  background: hsla(0, 0%, 100%, 1);
-  /* margin-right: 50px; */
-  object-fit: cover;
+  background: #ffffff;
+  bottom: 555px;
+  right: 160px;
+  z-index: 2;
 }
-
+.card-header {
+  position: relative;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  top: 32px;
+}
+.card-context {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
 .section-7 {
   flex: 1;
   display: flex;
